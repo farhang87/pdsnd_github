@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+Wednesday 10 June 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare analysis in Python
 
 ### Description
-Describe what your project is about and what it does
+It analyses data from a bike sharing service in the cities New York City, Chicago and Washington.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Original code and data provided through Udacity as an bike-assignment
+Git forked from udacity/pdsnd_github
