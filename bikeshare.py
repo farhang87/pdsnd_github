@@ -24,6 +24,7 @@ def get_filters():
 
     cities = ("chicago", "new york city", "washington")
 
+    # Asks the user on which city to filter
     while True:
         city = input("City: ")
         city = city.lower()
