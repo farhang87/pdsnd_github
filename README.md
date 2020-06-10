@@ -2,7 +2,7 @@
 Wednesday 10 June 2020
 
 ### Project Title
-Bikeshare analysis in Python
+Bikeshare analysis via Python
 
 ### Description
 It analyses data from a bike sharing service in the cities New York City, Chicago and Washington.
