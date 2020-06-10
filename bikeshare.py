@@ -24,6 +24,7 @@ def get_filters():
 
     cities = ("chicago", "new york city", "washington")
 
+    # Asks the user on which city to filter
     while True:
         city = input("City: ")
         city = city.lower()
@@ -119,7 +120,7 @@ def load_data(city, month, day):
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
-    print('\nCalculating The Most Frequent Times of Travel...\n')
+    print('\nCalculating The Most Frequent Times Of Travel...\n')
     start_time = time.time()
 
     df['Start Time'] = pd.to_datetime(df['Start Time'])
@@ -134,7 +135,7 @@ def time_stats(df):
     # TO DO: display the most common day of week
     df['dow'] = df['Start Time'].dt.weekday_name
     common_dow = df['dow'].mode()[0]
-    print('Most common day of week: ', common_dow)
+    print('Most common day of the week: ', common_dow)
 
     # TO DO: display the most common start hour
 
